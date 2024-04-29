@@ -71,11 +71,11 @@ public class _07_DuplicateFor {
 //				if (numAB +numBA == 99) {
 //					System.out.print("C :" + C + " , D: " + D);
 				
-			}
+				}
 				
 			}
 				
-			} 
+		} 
 		
 
 	}
