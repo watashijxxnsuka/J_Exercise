@@ -13,7 +13,7 @@ public class _01_OneOperator {
 		System.out.println("------------------");
 		
 		
-		// 2. 증강연산자
+		// 2. 증감연산자
 	    // 2-1. 전위 증감연산자
 		int num2 = 20;
 		
