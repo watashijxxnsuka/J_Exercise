@@ -20,6 +20,7 @@ public class MainPage {
 	public void selectMenu(Scanner sc, Student[] stArr) {
 		InputStudentInfo inputStudentInfo = new InputStudentInfo();
 		PrintStudentInfo printStudentInfo = new PrintStudentInfo();
+		PrintStudentRank printStudentRank = new PrintStudentRank();
 		
 		while(true) {
 			System.out.print("메뉴를 선택하세요.");
@@ -42,6 +43,9 @@ public class MainPage {
 				break;
 				
 			} else if(menuSelect == 4) {
+					printStudentRank.makeMajorArr(stArr);
+					
+			} else if(menuSelect == 5) {
 				System.out.println("프로그램을 종료합니다.");
 				System.exit(0);
 				
