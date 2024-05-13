@@ -60,7 +60,7 @@ public class Box<T> {
 		} else if(t1.getClass().getSimpleName().equals("String")) {
 			System.out.println((String)t1 + t2);
 		} else {
-			System.out.println("Intefer나 String 타입이 아닙니다.");
+			System.out.println("Integer나 String 타입이 아닙니다.");
 		}
 	}
 }

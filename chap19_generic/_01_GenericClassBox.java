@@ -5,7 +5,7 @@ import java.util.Map;
 
 import chap19_generic.box.Box;
 
-public class _01_GenericClass {
+public class _01_GenericClassBox {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
