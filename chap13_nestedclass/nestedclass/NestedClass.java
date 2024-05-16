@@ -44,7 +44,7 @@ public class NestedClass {
 		}
 		
 		// 5-4. 정적 중첩클래스의 클래스메소드
-		public static int staticMul(int a, int b) {
+		public static int Mul(int a, int b) {
 			return a * b;
 		}
 		

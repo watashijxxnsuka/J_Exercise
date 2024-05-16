@@ -22,7 +22,7 @@ public class _01_InstanceOfNestedClass {
 		// 1-2. 정적 중첩클래스의 클래스변수와 메소드
 		NestedClass.Mul.num6 = 10;
 		
-		result = NestedClass.Mul.staticMul(NestedClass.Mul.num6,20);
+		result = NestedClass.Mul.Mul(NestedClass.Mul.num6,20);
 		System.out.println(result);
 		
 		// 2. 인스턴스 중첩클래스의 객체 생성
